@@ -778,36 +778,37 @@ def pliego_hueco():
 
 def dos_pantallas():
     body = []
-    # pantalla del público
-    body.append(rrect(48, 48, 360, 200, "#1e2430", "#1e2430", 0, 10))
-    body.append(rrect(60, 60, 336, 176, "#16222e", "#0d1620", 1.5, 6))
-    body.append(t(80, 104, "Próximo paso", 16, "#9fb4c7"))
-    body.append(t(80, 148, "3 min", 36, "#fffdf8", weight="700"))
-    body.append(t(80, 196, "Siguiente: 11 min", 15, "#9fb4c7"))
-    body.append(t(48, 282, "Nadie se identifica.", 15, "#3d4654"))
-    body.append(t(48, 306, "Nadie comparte su dirección.", 15, "#3d4654"))
-    body.append(t(48, 330, "Encendida siempre.", 15, "#3d4654"))
-    # puesto del personal
-    body.append(rrect(472, 48, 360, 200, "#fffdf8", "#2c333d", 2, 10))
-    body.append(rrect(472, 48, 360, 30, "#2c333d", "#2c333d", 0, 10))
-    body.append(rrect(472, 64, 360, 14, "#2c333d", "#2c333d", 0, 0))
-    body.append(t(652, 69, "Programación de contenidos", 12, "#fffdf8", "middle"))
-    body.append(rrect(562, 100, 180, 126, "#f3efe6", "#c9c1b4", 1.5, 8))
-    body.append(t(580, 128, "Entrar", 15, weight="700"))
-    body.append(rrect(580, 140, 144, 20, "#fffdf8", "#c9c1b4", 1.5, 4))
-    body.append(rrect(580, 168, 144, 20, "#fffdf8", "#c9c1b4", 1.5, 4))
-    body.append(rrect(580, 196, 68, 20, "#1e3a5f", "#1e3a5f", 0, 4))
-    body.append(t(614, 211, "Acceder", 11, "#fffdf8", "middle", "700"))
-    body.append(t(472, 282, "Usuario, contraseña y permisos.", 15, "#3d4654"))
-    body.append(t(472, 306, "Datos que no salen del edificio.", 15, "#3d4654"))
-    body.append(t(472, 330, "Claves de otros sistemas.", 15, "#3d4654"))
-    # dos objetos, dos recepciones
-    body.append(rrect(48, 362, 784, 112, "#fffdf8", "#1e3a5f", 2, 12))
-    body.append(t(72, 394, "Dos objetos en el mismo expediente", 15, weight="700"))
-    body.append(t(72, 424, "Cada uno con sus requisitos, su prueba de aceptación,", 15, "#1e2430"))
-    body.append(t(72, 452, "su formación y su garantía.", 15, "#1e2430"))
-    body.append(t(812, 438, "Descritos como uno solo, la oferta presupuesta el barato.", 14, "#9a4638", "end"))
-    return svg(880, 500, "Dos cosas distintas en el mismo expediente: la pantalla del público, sin nadie delante, y el puesto del personal, con usuario y contraseña.", "\n".join(body))
+    # el que se ve
+    body.append(rrect(48, 56, 360, 190, "#1e2430", "#1e2430", 0, 10))
+    body.append(rrect(60, 68, 336, 166, "#16222e", "#0d1620", 1.5, 6))
+    body.append(t(80, 100, "Avisos", 15, "#9fb4c7"))
+    for i, linea in enumerate(["Aviso en la zona 2", "Obras en el acceso norte"]):
+        y = 114 + i * 42
+        body.append(rrect(80, y, 290, 32, "#1e3340", "#2a4152", 1.5, 5))
+        body.append(t(94, y + 21, linea, 14, "#fffdf8"))
+    body.append(t(48, 286, "El que se ve", 17, weight="700"))
+    body.append(t(48, 316, "Nadie se identifica.", 15, "#3d4654"))
+    body.append(t(48, 340, "No hay perfiles ni permisos.", 15, "#3d4654"))
+    body.append(t(48, 364, "Se valida mirándolo.", 15, "#3d4654"))
+    # el que se usa
+    body.append(rrect(472, 56, 360, 190, "#fffdf8", "#2c333d", 2, 10))
+    body.append(rrect(472, 56, 360, 30, "#2c333d", "#2c333d", 0, 10))
+    body.append(rrect(472, 72, 360, 14, "#2c333d", "#2c333d", 0, 0))
+    body.append(t(652, 77, "Herramienta de gestión", 12, "#fffdf8", "middle"))
+    body.append(rrect(562, 104, 180, 122, "#f3efe6", "#c9c1b4", 1.5, 8))
+    body.append(t(580, 132, "Entrar", 15, weight="700"))
+    body.append(rrect(580, 144, 144, 20, "#fffdf8", "#c9c1b4", 1.5, 4))
+    body.append(rrect(580, 172, 144, 20, "#fffdf8", "#c9c1b4", 1.5, 4))
+    body.append(rrect(580, 198, 68, 20, "#1e3a5f", "#1e3a5f", 0, 4))
+    body.append(t(614, 213, "Acceder", 11, "#fffdf8", "middle", "700"))
+    body.append(t(472, 286, "El que se usa para gestionarlo", 17, weight="700"))
+    body.append(t(472, 316, "Usuarios, perfiles y permisos.", 15, "#3d4654"))
+    body.append(t(472, 340, "Registro de quién hizo qué.", 15, "#3d4654"))
+    body.append(t(472, 364, "Se valida entrando.", 15, "#3d4654"))
+    body.append(rrect(48, 396, 784, 68, "#fffdf8", "#1e3a5f", 2, 12))
+    body.append(t(440, 428, "Dos programas. Casi siempre se describen como uno.", 17, "#1e2430", "middle", "700"))
+    body.append(t(440, 452, "Y entonces la oferta presupuesta el que se ve.", 14, "#9a4638", "middle"))
+    return svg(880, 492, "Dos programas en el mismo pliego: el que se ve, sin nadie delante, y el que se usa para gestionarlo, con usuario y contraseña.", "\n".join(body))
 
 
 def la_entrega():
