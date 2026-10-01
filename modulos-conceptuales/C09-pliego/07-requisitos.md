@@ -1,8 +1,10 @@
 # Requisitos para pegar en un pliego
 
-[← Página anterior](05-la-recepcion.md) · [Siguiente página →](../../modulos/M01-ecosistema-react/README.md)
+[← Página anterior](06-la-recepcion.md) · [Siguiente página →](../../modulos/M01-ecosistema-react/README.md)
 
-Veintidós requisitos para la parte de aplicación de un pliego de sistema. No sustituyen a nada de lo que ya tienes: se colocan al lado de los requisitos de plataforma, de comunicaciones y de instalación, y cubren el hueco que deja la frase de la página 1.
+Veintidós requisitos para la parte de aplicación de un pliego de sistema. Esta página no se lee en clase: es la hoja que se abre el día de redactar.
+
+No sustituyen a nada de lo que ya tienes: se colocan al lado de los requisitos de plataforma, de comunicaciones y de instalación, y cubren el hueco que deja la frase de la página 1.
 
 Los identificadores van en neutro (`REQ.n`) para que los renumeres con la familia que uses en cada expediente. Nada de lo que hay aquí es clausular: ni precio, ni solvencia, ni plazos, ni penalizaciones.
 

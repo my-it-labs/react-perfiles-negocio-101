@@ -6,13 +6,14 @@ Lo que se licita casi nunca es una aplicación. Es un sistema: equipos, conexion
 
 Este capítulo trata esa parte. No el procedimiento de contratación, ni las cláusulas: lo que hay que escribir para que lo que se ve se pueda pedir, comprobar, medir y heredar. Y para que la licitación siguiente del mismo sistema —los cambios, las mejoras, la ampliación, el proveedor nuevo— no empiece de cero.
 
-Cinco páginas y un bloque de requisitos listo para pegar.
+Seis páginas de ideas, una por dibujo, y una hoja de requisitos al final para el día de redactar.
 
 ## Páginas
 
 - [Una frase no es un requisito](01-una-frase.md)
-- [No todas las pantallas son la misma pantalla](02-dos-encargos.md)
-- [Lo que hay que llevarse](03-la-entrega.md)
-- [La pantalla que no se apaga](04-dias-seguidos.md)
-- [Cómo se comprueba que está bien](05-la-recepcion.md)
-- [Requisitos para pegar en un pliego](06-requisitos.md)
+- [Tres palabras: librería, framework y taller](02-tres-palabras.md)
+- [No todas las pantallas son la misma pantalla](03-dos-encargos.md)
+- [Lo que hay que llevarse](04-la-entrega.md)
+- [La pantalla que no se apaga](05-dias-seguidos.md)
+- [Cómo se comprueba que está bien](06-la-recepcion.md)
+- [Requisitos para pegar en un pliego](07-requisitos.md)

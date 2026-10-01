@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="336" viewBox="0 0 880 336" role="img">
+<title>Cuatro casos de prueba de la misma pantalla: con datos, sin datos, con error y con un dato mal formado.</title>
+<rect width="100%" height="100%" fill="#f3efe6"/>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#1e3a5f"/>
+  </marker>
+  <marker id="arrSoft" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#5c6b7a"/>
+  </marker>
+  <marker id="arrCoral" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#9a4638"/>
+  </marker>
+</defs>
+<rect x="28" y="40" width="188" height="150" rx="10" fill="#fffdf8" stroke="#2f6b3a" stroke-width="2"/>
+<rect x="28" y="40" width="188" height="26" rx="10" fill="#d5ead6" stroke="#2f6b3a" stroke-width="0"/>
+<rect x="28" y="54" width="188" height="12" rx="0" fill="#d5ead6" stroke="#d5ead6" stroke-width="0"/>
+<text x="122" y="58" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#1e2430">Con datos</text>
+<rect x="42" y="82" width="160" height="24" rx="5" fill="#f3efe6" stroke="#e2dcd0" stroke-width="1.5"/>
+<text x="52" y="98" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#1e2430">Aviso en L2</text>
+<rect x="42" y="112" width="160" height="24" rx="5" fill="#f3efe6" stroke="#e2dcd0" stroke-width="1.5"/>
+<text x="52" y="128" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#1e2430">Aviso en L4</text>
+<rect x="42" y="142" width="160" height="24" rx="5" fill="#f3efe6" stroke="#e2dcd0" stroke-width="1.5"/>
+<text x="52" y="158" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#1e2430">Obras en B12</text>
+<text x="122" y="216" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#3d4654">Se ven los tres avisos.</text>
+<rect x="240" y="40" width="188" height="150" rx="10" fill="#fffdf8" stroke="#6f675c" stroke-width="2"/>
+<rect x="240" y="40" width="188" height="26" rx="10" fill="#e7e2d8" stroke="#6f675c" stroke-width="0"/>
+<rect x="240" y="54" width="188" height="12" rx="0" fill="#e7e2d8" stroke="#e7e2d8" stroke-width="0"/>
+<text x="334" y="58" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#1e2430">Sin datos</text>
+<text x="334" y="128" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#5c6570">«No hay avisos.»</text>
+<text x="334" y="216" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#3d4654"></text>
+<rect x="452" y="40" width="188" height="150" rx="10" fill="#fffdf8" stroke="#9a4638" stroke-width="2"/>
+<rect x="452" y="40" width="188" height="26" rx="10" fill="#f6d5ce" stroke="#9a4638" stroke-width="0"/>
+<rect x="452" y="54" width="188" height="12" rx="0" fill="#f6d5ce" stroke="#f6d5ce" stroke-width="0"/>
+<text x="546" y="58" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#1e2430">Con error</text>
+<text x="546" y="128" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#5c6570">«No se ha podido cargar.»</text>
+<text x="546" y="216" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#3d4654"></text>
+<rect x="664" y="40" width="188" height="150" rx="10" fill="#fffdf8" stroke="#8d6a12" stroke-width="2"/>
+<rect x="664" y="40" width="188" height="26" rx="10" fill="#f8e6b0" stroke="#8d6a12" stroke-width="0"/>
+<rect x="664" y="54" width="188" height="12" rx="0" fill="#f8e6b0" stroke="#f8e6b0" stroke-width="0"/>
+<text x="758" y="58" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" fill="#1e2430">Un dato mal formado</text>
+<rect x="678" y="82" width="160" height="24" rx="5" fill="#f3efe6" stroke="#e2dcd0" stroke-width="1.5"/>
+<text x="688" y="98" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#1e2430">Aviso en L2</text>
+<rect x="678" y="112" width="160" height="24" rx="5" fill="#f3efe6" stroke="#e2dcd0" stroke-width="1.5"/>
+<text x="688" y="128" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#1e2430">Obras en B12</text>
+<rect x="678" y="142" width="160" height="24" rx="5" fill="none" stroke="#9a4638" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="758" y="158" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#9a4638">este se ignora</text>
+<text x="758" y="216" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#3d4654">Se ven los correctos.</text>
+<text x="440" y="282" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#3d4654">Cuatro pruebas por cada pantalla del inventario.</text>
+<text x="440" y="308" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#3d4654">La frase de cada caso la escribe el pliego, no el proveedor.</text>
+</svg>
