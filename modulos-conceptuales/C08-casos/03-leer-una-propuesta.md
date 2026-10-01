@@ -26,7 +26,7 @@ Se puede desmontar con lo que ya tienes, sin escribir una línea.
 
 React para las piezas del panel. Next solo en las rutas que de verdad se comparten o se indexan; el panel interno puede ser navegador. Una superficie móvil, con el nombre correcto. Electron solo con un requisito de puesto. Una vía en vivo con vacío y con sordera diseñados. Y un taller distinto para cada cosa que se entrega.
 
-El otro recorrido del curso abre las demos y enseña estas ideas con aplicaciones pequeñas. Si quieres ver el documento tradicional, la SPA y un Next uno al lado del otro, sigue por ahí.
+El otro recorrido del curso abre las demos y enseña estas ideas con aplicaciones pequeñas. Si quieres ver el documento tradicional, la SPA y un Next uno al lado del otro, sigue por ahí. Escribir el encargo, en vez de desmontar la frase del proveedor, está en [Licitar una aplicación](../../modulos/M06-licitar/README.md).
 
 ## Qué preguntar al cerrar la reunión
 
