@@ -1,16 +1,18 @@
 # C09 — El pliego
 
-[← Página anterior](../C08-casos/03-leer-una-propuesta.md) · [Siguiente página →](01-dos-papeles.md)
+[← Página anterior](../C08-casos/03-leer-una-propuesta.md) · [Siguiente página →](01-una-frase.md)
 
-Objetivo: encargar una aplicación a un proveedor con un dibujo, un contrato del dato y una decisión explícita sobre qué librerías se fijan.
+Lo que se licita casi nunca es una aplicación. Es un sistema: equipos, conexiones, pantallas, puestos de operación, servidores. La aplicación es una parte, y es la única que se ve.
 
-No hace falta redactar el procedimiento de contratación. Hace falta que lo que se construye se pueda señalar: en un wireframe, en una respuesta y en un arranque.
+Este capítulo trata esa parte. No el procedimiento de contratación, ni las cláusulas: lo que hay que escribir para que lo que se ve se pueda pedir, comprobar, medir y heredar. Y para que la licitación siguiente del mismo sistema —los cambios, las mejoras, la ampliación, el proveedor nuevo— no empiece de cero.
+
+Cinco páginas y un bloque de requisitos listo para pegar.
 
 ## Páginas
 
-- [Dos papeles](01-dos-papeles.md)
-- [El wireframe](02-el-wireframe.md)
-- [El contrato del dato](03-el-contrato.md)
-- [Librerías y versiones](04-librerias.md)
-- [Cómo se cierra](05-como-se-cierra.md)
-- [Modelo de pliego](06-modelo.md)
+- [Una frase no es un requisito](01-una-frase.md)
+- [No todas las pantallas son la misma pantalla](02-dos-encargos.md)
+- [Lo que hay que llevarse](03-la-entrega.md)
+- [La pantalla que no se apaga](04-dias-seguidos.md)
+- [Cómo se comprueba que está bien](05-la-recepcion.md)
+- [Requisitos para pegar en un pliego](06-requisitos.md)
