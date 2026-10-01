@@ -15,4 +15,4 @@ Lo que cambia son unas pocas líneas dentro de esos apartados cuando la parte qu
 - [Las fuentes y los entregables](03-fuentes.md)
 - [Las pruebas de aceptación](04-aceptacion.md)
 - [La garantía y la bolsa de horas](05-garantia.md)
-- [Pliego de ejemplo](06-ejemplo.md)
+- [Supuesto: el pliego de AVISOS](06-ejemplo.md)

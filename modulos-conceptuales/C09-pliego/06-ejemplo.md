@@ -2,13 +2,15 @@
 
 [← Página anterior](05-garantia.md) · [Siguiente página →](../../modulos/M01-ecosistema-react/README.md)
 
-Esta página no se lee en clase: es la hoja que se abre el día de redactar. Un caso inventado, pequeño, y el extracto de pliego que le corresponde, con el formato de tabla de tres columnas y las familias de identificadores de siempre. La numeración se ajusta al expediente real.
+Un supuesto teórico: una aplicación ficticia, pequeña, y el extracto de pliego que le correspondería. Mismo formato de tabla de tres columnas y mismas familias de identificadores de siempre; la numeración se ajusta al expediente real.
+
+Sirve para dos cosas: recorrerlo entero sobre un caso que cabe en una página, y tenerlo delante el día de redactar uno de verdad.
 
 No hay nada clausular aquí: ni precio, ni solvencia, ni plazos, ni penalizaciones.
 
-## El caso
+## El supuesto
 
-**AVISOS.** Pantallas instaladas en dependencias que muestran los avisos internos vigentes y el estado de las líneas.
+**AVISOS.** Pantallas instaladas en dependencias que muestran los avisos internos vigentes y el estado de las líneas. No existe: está inventada para este ejercicio.
 
 - **Quién la mira.** Personal de la dependencia, de paso. Nadie se identifica y nadie toca nada.
 - **Quién la alimenta.** Comunicación interna, desde una herramienta con usuario y perfil.
