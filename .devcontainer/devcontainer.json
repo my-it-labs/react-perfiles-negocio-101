@@ -1,7 +1,7 @@
 {
   "name": "React perfiles de negocio — demos",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
-  "forwardPorts": [8080, 8081, 5173, 3000],
+  "forwardPorts": [8080, 8081, 5173, 5174, 3000],
   "portsAttributes": {
     "8080": {
       "label": "Página tradicional",
@@ -13,6 +13,10 @@
     },
     "5173": {
       "label": "SPA React",
+      "onAutoForward": "notify"
+    },
+    "5174": {
+      "label": "Planner de cocinas",
       "onAutoForward": "notify"
     },
     "3000": {

@@ -7,6 +7,17 @@ export function App() {
   const [lineaId, setLineaId] = useState(null);
   const linea = lineas.find((item) => item.id === lineaId);
 
+
+  const nuevaLineaHandler = () => {
+    lineas.push({
+      id: `L${lineas.length + 1}`,
+      nombre: `Linea ${lineas.length + 1}`,
+      detalle: `Detalle de la linea ${lineas.length + 1}`,
+      estado: "activa",
+    });
+    setVista("listado");  
+  }
+
   return (
     <>
       <header>
@@ -15,6 +26,7 @@ export function App() {
         <p>Cambiar de vista no recarga el documento.</p>
       </header>
       <main>
+        <button onClick={nuevaLineaHandler}>Agrega Linea</button>
         <p>
           Cargas del documento: <strong>1</strong>
         </p>

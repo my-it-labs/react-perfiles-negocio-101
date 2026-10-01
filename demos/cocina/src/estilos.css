@@ -1,0 +1,444 @@
+:root {
+  color: #241f1b;
+  background: #efe8de;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+.app {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 1.5rem;
+  padding: 0.9rem 1.3rem 1rem;
+  background: #2a2420;
+  color: #f6f1ea;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.45rem;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+}
+
+.marca {
+  display: inline-block;
+  margin: 0 0 0.3rem;
+  padding: 0.12rem 0.45rem;
+  border-radius: 999px;
+  background: #e7c7a4;
+  color: #3d2a16;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.lema {
+  max-width: 22rem;
+  margin: 0;
+  color: #e6d9cc;
+  font-size: 0.92rem;
+}
+
+.cuerpo {
+  display: grid;
+  grid-template-columns: 23rem minmax(0, 1fr);
+  min-height: 0;
+}
+
+.panel {
+  max-height: calc(100vh - 5.2rem);
+  overflow: auto;
+  padding: 0.9rem;
+  background: #f6f1ea;
+  border-right: 1px solid #e2d5c6;
+}
+
+.tarjeta {
+  margin: 0 0 0.75rem;
+  padding: 0.85rem 0.9rem;
+  background: #fffdf9;
+  border: 1px solid #eadfD2;
+  border-radius: 0.8rem;
+}
+
+.tarjeta h2 {
+  margin: 0 0 0.55rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #7b6a59;
+}
+
+.resumen .precio {
+  margin: 0 0 0.45rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.resumen dl,
+.dato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.35rem 0.8rem;
+  margin: 0;
+}
+
+.resumen div,
+.dato div {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+dt {
+  color: #7d6e60;
+}
+
+dd {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+  font-weight: 650;
+}
+
+.aviso {
+  margin: 0 0 0.75rem;
+  padding: 0.65rem 0.75rem;
+  border-radius: 0.7rem;
+  background: #fde8e4;
+  color: #7a1f16;
+}
+
+.aviso.puerta {
+  background: #f8ecd6;
+  color: #7a4b0d;
+}
+
+.campos,
+.catalogo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.45rem;
+}
+
+.campos label,
+.ancho {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.92rem;
+}
+
+.ancho {
+  grid-template-columns: auto 1fr;
+  margin: 0.6rem 0;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.35rem 0.4rem;
+  border: 1px solid #ddcfc0;
+  border-radius: 0.45rem;
+  background: #fff;
+}
+
+.campos span {
+  color: #8a7968;
+  font-size: 0.82rem;
+}
+
+.catalogo button,
+.acciones button,
+.secundario,
+.fila {
+  border: 1px solid #e4d5c4;
+  background: #fff;
+  border-radius: 0.55rem;
+  cursor: pointer;
+}
+
+.catalogo button {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.45rem 0.5rem;
+  text-align: left;
+}
+
+.catalogo button:hover,
+.fila:hover,
+.acciones button:hover,
+.secundario:hover {
+  border-color: #c4622d;
+}
+
+.catalogo small {
+  margin-left: auto;
+  color: #8a7968;
+}
+
+.muestra {
+  width: 0.7rem;
+  height: 0.7rem;
+  border: 1px solid #2c2825;
+  border-radius: 0.15rem;
+  background: #f7f1e8;
+}
+
+.muestra.alto {
+  border-style: dashed;
+  border-color: #8d7356;
+}
+
+.muestra.isla {
+  background: #f4e4c4;
+}
+
+.muestra.frigo {
+  background: #e7eef2;
+}
+
+.muestra.fregadero {
+  background: #d5e7ec;
+}
+
+.muestra.vitro {
+  background: #3a4046;
+}
+
+.nombre-seleccion {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.acciones {
+  display: flex;
+  gap: 0.45rem;
+}
+
+.acciones button,
+.secundario {
+  padding: 0.4rem 0.7rem;
+}
+
+.peligro {
+  color: #8d2018;
+}
+
+.vacio,
+.nota,
+.pista {
+  margin: 0;
+  color: #6f6256;
+  font-size: 0.9rem;
+}
+
+.nota {
+  margin-bottom: 0.5rem;
+}
+
+.lista {
+  list-style: none;
+  margin: 0 0 0.7rem;
+  padding: 0;
+  max-height: 11rem;
+  overflow: auto;
+}
+
+.fila {
+  display: grid;
+  grid-template-columns: 4.2rem 1fr auto;
+  width: 100%;
+  margin-bottom: 0.3rem;
+  padding: 0.32rem 0.45rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.fila.activa {
+  border-color: #c4622d;
+  background: #fff4ec;
+}
+
+.secundario {
+  width: 100%;
+}
+
+.lienzo {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 0.55rem;
+  min-height: 0;
+  padding: 0.9rem;
+}
+
+.lienzo svg {
+  width: 100%;
+  height: 100%;
+  min-height: 28rem;
+  background: #fbf8f3;
+  border: 1px solid #e4d7c8;
+  border-radius: 0.9rem;
+  touch-action: none;
+  user-select: none;
+}
+
+.modulo {
+  cursor: grab;
+}
+
+.modulo text {
+  fill: #3d342c;
+  pointer-events: none;
+}
+
+.simbolo {
+  fill: none;
+  stroke: #3d342c;
+  stroke-width: 1.1;
+  pointer-events: none;
+}
+
+.simbolo.vitro rect,
+.simbolo.horno rect:first-child {
+  fill: #2e343a;
+  stroke: #2e343a;
+}
+
+.simbolo.vitro circle {
+  stroke: #d7dde2;
+}
+
+.simbolo.horno rect:nth-child(2) {
+  fill: #b7d0dc;
+  stroke: none;
+}
+
+.fregadero ellipse,
+.fregadero circle {
+  fill: #c5e0e7;
+  stroke: #2f6774;
+}
+
+.frente,
+.simbolo-isla,
+.simbolo-alto {
+  pointer-events: none;
+}
+
+.frente {
+  stroke-width: 1.6;
+  stroke-linecap: round;
+}
+
+.simbolo-isla,
+.simbolo-alto {
+  fill: none;
+  stroke: #b9a48a;
+  stroke-width: 0.8;
+}
+
+.suelo {
+  fill: #f3eadf;
+  stroke: none;
+}
+
+.rejilla,
+.cota,
+.cota-linea,
+.norte,
+.muros,
+.ventana,
+.puerta {
+  pointer-events: none;
+}
+
+.rejilla {
+  stroke: #e6d9c8;
+  stroke-width: 0.6;
+}
+
+.muros rect {
+  fill: #3a342e;
+}
+
+.ventana rect {
+  fill: #d5e7ee;
+  stroke: #6f8f9b;
+  stroke-width: 0.6;
+}
+
+.ventana line,
+.puerta {
+  fill: none;
+  stroke: #6f8f9b;
+  stroke-width: 1;
+}
+
+.puerta.mal {
+  stroke: #9f1d1d;
+}
+
+.cota,
+.norte {
+  fill: #7d6e60;
+  font-size: 12px;
+}
+
+.cota-linea {
+  stroke: #b7a898;
+  stroke-width: 0.8;
+}
+
+.pista {
+  padding: 0 0.2rem;
+}
+
+@media (max-width: 900px) {
+  header {
+    display: block;
+  }
+
+  .lema {
+    margin-top: 0.45rem;
+  }
+
+  .cuerpo {
+    grid-template-columns: 1fr;
+  }
+
+  .panel {
+    max-height: none;
+    border-right: 0;
+    border-bottom: 1px solid #e2d5c6;
+  }
+
+  .lienzo svg {
+    height: 70vh;
+  }
+}

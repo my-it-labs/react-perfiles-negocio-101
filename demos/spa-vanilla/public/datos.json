@@ -15,6 +15,14 @@
       "estado": "retraso leve",
       "frecuencia": "6 minutos",
       "paradas": ["Mercado", "Universidad", "Puerto"]
+    },
+    {
+      "id": "L3",
+      "nombre": "Línea L3",
+      "tramo": "Este / Sur",
+      "estado": "retraso leve",
+      "frecuencia": "6 minutos",
+      "paradas": ["Mercado", "Universidad", "Puerto"]
     }
   ]
 }
