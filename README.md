@@ -16,6 +16,7 @@ Dos lecturas. Los [conceptos](modulos-conceptuales/README.md) explican el ecosis
 - [C06 — Next, Gatsby y Remix](modulos-conceptuales/C06-marcos/README.md)
 - [C07 — Web, móvil y escritorio](modulos-conceptuales/C07-hibridos/README.md)
 - [C08 — Casos guiados](modulos-conceptuales/C08-casos/README.md)
+- [C09 — El pliego](modulos-conceptuales/C09-pliego/README.md)
 
 ## Demos guiadas
 
@@ -125,23 +126,6 @@ Teoría y demostración. Cada página enlaza con la anterior y la siguiente. Las
   - [Lo que no cubre](modulos/M05-apis-calidad/04-caso/03-lo-que-no-cubre.md)
 - Guía
   - [Flujo con API](demos/next/guia/flujo/01-antes-de-pulsar.md)
-
-## M06 — Licitar una aplicación
-
-[Índice del módulo](modulos/M06-licitar/README.md)
-
-- El pliego
-  - [Qué se encarga](modulos/M06-licitar/01-el-pliego/01-que-se-encarga.md)
-  - [Dos documentos](modulos/M06-licitar/01-el-pliego/02-dos-documentos.md)
-  - [Lo que no se escribe](modulos/M06-licitar/01-el-pliego/03-lo-que-no-se-escribe.md)
-- Prescripciones
-  - [Uso y superficie](modulos/M06-licitar/02-prescripciones/01-uso-y-superficie.md)
-  - [Dato y desenlaces](modulos/M06-licitar/02-prescripciones/02-dato-y-desenlaces.md)
-  - [Qué se entrega](modulos/M06-licitar/02-prescripciones/03-que-se-entrega.md)
-- Cierre
-  - [Obligatorio y puntuable](modulos/M06-licitar/03-cierre/01-obligatorio-y-puntuable.md)
-  - [Qué contesta la oferta](modulos/M06-licitar/03-cierre/02-que-contesta-la-oferta.md)
-  - [Un pliego corto](modulos/M06-licitar/03-cierre/03-un-pliego-corto.md)
 
 ## Empieza aquí
 

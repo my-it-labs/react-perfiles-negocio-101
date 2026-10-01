@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="500" viewBox="0 0 880 500" role="img">
+<title>Dos wireframes del pliego: la ficha pública de L2, que se lee al llegar, y el panel de sala, con sesión. Debajo, los cuatro finales.</title>
+<rect width="100%" height="100%" fill="#f3efe6"/>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#1e3a5f"/>
+  </marker>
+  <marker id="arrSoft" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#5c6b7a"/>
+  </marker>
+  <marker id="arrCoral" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#9a4638"/>
+  </marker>
+</defs>
+<rect x="28" y="28" width="400" height="300" rx="14" fill="#fffdf8" stroke="#2c333d" stroke-width="2"/>
+<rect x="28" y="28" width="400" height="32" rx="14" fill="#e7e2d8"/>
+<rect x="28" y="46" width="400" height="14" fill="#e7e2d8"/>
+<text x="228" y="50" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#5c6570">Ficha pública  ·  /lineas/L2</text>
+<text x="52" y="100" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="700" fill="#1e2430">L2</text>
+<rect x="52" y="118" width="200" height="36" rx="8" fill="#f8e6b0" stroke="#8d6a12" stroke-width="2"/>
+<text x="68" y="142" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">Retraso leve</text>
+<text x="52" y="184" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">Ya viene en la primera respuesta.</text>
+<text x="52" y="208" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">Se puede compartir la dirección.</text>
+<text x="52" y="232" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">Recargar sigue en L2.</text>
+<text x="52" y="290" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#5c6570">Sin sesión. La lee quien llega.</text>
+<rect x="452" y="28" width="400" height="300" rx="14" fill="#fffdf8" stroke="#2c333d" stroke-width="2"/>
+<rect x="452" y="28" width="400" height="32" rx="14" fill="#1e3a5f"/>
+<rect x="452" y="46" width="400" height="14" fill="#1e3a5f"/>
+<text x="652" y="50" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#fffdf8">Panel de sala  ·  con sesión</text>
+<rect x="472" y="78" width="360" height="32" rx="6" fill="#fff" stroke="#c9c1b4" stroke-width="1.5"/>
+<text x="486" y="99" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#8a8175">Buscar incidencia…</text>
+<rect x="472" y="122" width="168" height="110" rx="8" fill="#fff" stroke="#2c333d" stroke-width="1.5"/>
+<text x="486" y="148" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1e2430">L2 · abierta</text>
+<text x="486" y="172" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">L1 · abierta</text>
+<text x="486" y="196" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#5c6570">B12 · vista</text>
+<rect x="652" y="122" width="180" height="110" rx="8" fill="#f8e6b0" stroke="#8d6a12" stroke-width="2"/>
+<text x="666" y="150" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1e2430">Detalle L2</text>
+<text x="666" y="176" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">Cerrar</text>
+<text x="666" y="200" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">sin recargar</text>
+<text x="472" y="268" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">Ir al detalle no pide otra página.</text>
+<text x="472" y="292" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">Sin sesión, esta vista no responde.</text>
+<rect x="28" y="352" width="176" height="64" rx="10" fill="#e7e2d8" stroke="#6f675c" stroke-width="1.5"/>
+<text x="116" y="390" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1e2430">Cargando…</text>
+<rect x="244" y="352" width="176" height="64" rx="10" fill="#d5ead6" stroke="#2f6b3a" stroke-width="1.5"/>
+<text x="332" y="390" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1e2430">Dos incidencias</text>
+<rect x="460" y="352" width="176" height="64" rx="10" fill="#fffdf8" stroke="#2c333d" stroke-width="1.5"/>
+<text x="548" y="390" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1e2430">No hay incidencias</text>
+<rect x="676" y="352" width="176" height="64" rx="10" fill="#f6d5ce" stroke="#9a4638" stroke-width="1.5"/>
+<text x="764" y="390" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1e2430">No se pudo cargar</text>
+<text x="440" y="460" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#3d4654">El wireframe del pliego trae los cuatro finales, no solo la pantalla con datos.</text>
+</svg>

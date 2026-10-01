@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="500" viewBox="0 0 880 500" role="img">
+<title>Dos papeles: las cláusulas contratan y las prescripciones describen el wireframe, el contrato del dato y lo que queda fuera.</title>
+<rect width="100%" height="100%" fill="#f3efe6"/>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#1e3a5f"/>
+  </marker>
+  <marker id="arrSoft" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#5c6b7a"/>
+  </marker>
+  <marker id="arrCoral" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#9a4638"/>
+  </marker>
+</defs>
+<rect x="28" y="56" width="390" height="360" rx="16" fill="#fffdf8" stroke="#6f675c" stroke-width="1.5"/>
+<text x="48" y="96" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" fill="#1e2430">Cláusulas</text>
+<text x="48" y="122" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#5c6570">Cómo se contrata</text>
+<rect x="48" y="148" width="350" height="48" rx="8" fill="#fff" stroke="#e2dcd0" stroke-width="1.5"/>
+<text x="64" y="170" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#1e2430">Precio y ponderación</text>
+<text x="64" y="188" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#5c6570">cuánto pesa frente al resto</text>
+<rect x="48" y="208" width="350" height="48" rx="8" fill="#fff" stroke="#e2dcd0" stroke-width="1.5"/>
+<text x="64" y="230" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#1e2430">Solvencia</text>
+<text x="64" y="248" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#5c6570">quién puede presentarse</text>
+<rect x="48" y="268" width="350" height="48" rx="8" fill="#fff" stroke="#e2dcd0" stroke-width="1.5"/>
+<text x="64" y="290" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#1e2430">Plazos y penalizaciones</text>
+<text x="64" y="308" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#5c6570">cuándo se entrega</text>
+<rect x="48" y="328" width="350" height="48" rx="8" fill="#fff" stroke="#e2dcd0" stroke-width="1.5"/>
+<text x="64" y="350" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#1e2430">Propiedad del código</text>
+<text x="64" y="368" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#5c6570">de quién es al acabar</text>
+<rect x="462" y="56" width="390" height="360" rx="16" fill="#fffdf8" stroke="#1e3a5f" stroke-width="2"/>
+<text x="482" y="96" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" fill="#1e2430">Prescripciones</text>
+<text x="482" y="122" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#5c6570">Qué se construye</text>
+<rect x="482" y="150" width="350" height="64" rx="10" fill="#f8e6b0" stroke="#8d6a12" stroke-width="2"/>
+<text x="500" y="178" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">Wireframe</text>
+<text x="500" y="200" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">la pantalla y sus frases</text>
+<rect x="482" y="228" width="350" height="64" rx="10" fill="#d9e6f2" stroke="#2c5f94" stroke-width="2"/>
+<text x="500" y="256" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">Contrato del dato</text>
+<text x="500" y="278" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">la operación y el JSON</text>
+<rect x="482" y="306" width="350" height="64" rx="10" fill="#f6d5ce" stroke="#9a4638" stroke-width="2"/>
+<text x="500" y="334" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">Fuera de este encargo</text>
+<text x="500" y="356" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">lo que no vuelve como mejora</text>
+<text x="440" y="460" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#3d4654">El proveedor construye lo de la derecha. Lo de la izquierda dice cómo se contrata.</text>
+</svg>

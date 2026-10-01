@@ -1,6 +1,6 @@
 # Lectura
 
-[← Página anterior](05-lento.md) · [Siguiente página →](../../../../modulos/M06-licitar/README.md)
+[← Página anterior](05-lento.md) · [Siguiente página →](../../../../README.md)
 
 ## Lo que la guía ha fijado
 
@@ -20,4 +20,4 @@ Se cambia el botón de la demo por la acción real y se mantiene la tabla: qué 
 
 ## Cierre del recorrido
 
-Las tres demos quedan leídas: el documento que se sustituye, la SPA que conserva la memoria y pierde la URL, y Next.js con HTML de servidor, hora de cliente y esta API. El módulo siguiente escribe el pliego que habría encargado esas superficies. El índice del repositorio sigue siendo la forma de volver a una página concreta, sin recorrer otra vez toda la cadena.
+Las tres demos quedan leídas: el documento que se sustituye, la SPA que conserva la memoria y pierde la URL, y Next.js con HTML de servidor, hora de cliente y esta API. El índice del repositorio devuelve a la entrada. Volver a una página concreta es usar ese índice, no recorrer otra vez toda la cadena. El pliego que encargaría estas superficies está en el recorrido de conceptos, [C09](../../../../modulos-conceptuales/C09-pliego/README.md).

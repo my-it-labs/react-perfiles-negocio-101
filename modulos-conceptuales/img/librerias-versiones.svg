@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="490" viewBox="0 0 880 490" role="img">
+<title>Qué librerías y versiones se fijan en el pliego, y cuáles deja libres para que las proponga la oferta.</title>
+<rect width="100%" height="100%" fill="#f3efe6"/>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#1e3a5f"/>
+  </marker>
+  <marker id="arrSoft" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#5c6b7a"/>
+  </marker>
+  <marker id="arrCoral" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M 0 1.1 L 8.6 5 L 0 8.9 Z" fill="#9a4638"/>
+  </marker>
+</defs>
+<rect x="28" y="48" width="400" height="360" rx="16" fill="#fffdf8" stroke="#2f6b3a" stroke-width="2"/>
+<text x="48" y="88" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" fill="#2f6b3a">Sí se fija</text>
+<text x="48" y="114" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#5c6570">La casa tiene que poder mantenerlo</text>
+<rect x="48" y="140" width="360" height="64" rx="10" fill="#d5ead6" stroke="#2f6b3a" stroke-width="1.5"/>
+<text x="66" y="168" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">React</text>
+<text x="66" y="190" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">el equipo que hereda ya lo usa</text>
+<rect x="48" y="218" width="360" height="64" rx="10" fill="#d5ead6" stroke="#2f6b3a" stroke-width="1.5"/>
+<text x="66" y="246" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">Node 22</text>
+<text x="66" y="268" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">para instalar y arrancar</text>
+<rect x="48" y="296" width="360" height="64" rx="10" fill="#d5ead6" stroke="#2f6b3a" stroke-width="1.5"/>
+<text x="66" y="324" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">Piezas de la casa</text>
+<text x="66" y="346" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">si ya existe esa familia</text>
+<rect x="452" y="48" width="400" height="360" rx="16" fill="#fffdf8" stroke="#9a4638" stroke-width="2"/>
+<text x="472" y="88" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" fill="#9a4638">Lo propone la oferta</text>
+<text x="472" y="114" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#5c6570">Oficio. Se explica, no se decreta</text>
+<rect x="472" y="140" width="360" height="64" rx="10" fill="#f6d5ce" stroke="#9a4638" stroke-width="1.5"/>
+<text x="490" y="168" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">Rutas y estado</text>
+<text x="490" y="190" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">la librería que encaje en el boceto</text>
+<rect x="472" y="218" width="360" height="64" rx="10" fill="#f6d5ce" stroke="#9a4638" stroke-width="1.5"/>
+<text x="490" y="246" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">Versión parche</text>
+<text x="490" y="268" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">envejece antes de publicarse</text>
+<rect x="472" y="296" width="360" height="64" rx="10" fill="#f6d5ce" stroke="#9a4638" stroke-width="1.5"/>
+<text x="490" y="324" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#1e2430">«La última»</text>
+<text x="490" y="346" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">no es una versión</text>
+<text x="440" y="450" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#3d4654">Se fija lo que la casa hereda. El resto se declara en la entrega, no en el anuncio.</text>
+</svg>
