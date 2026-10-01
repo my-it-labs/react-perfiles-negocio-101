@@ -41,7 +41,7 @@
 <rect x="30" y="314" width="820" height="33" rx="3" fill="#d5ead6" stroke="#2f6b3a" stroke-width="1.5"/>
 <text x="36" y="336" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#2f6b3a">+</text>
 <text x="52" y="336" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1e2430">Entorno de construcción</text>
-<text x="260" y="336" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#3d4654">Componentes de terceros y pasos para reconstruir</text>
+<text x="260" y="336" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#3d4654">Librerías de terceros y pasos para reconstruir</text>
 <line x1="28" y1="347" x2="852" y2="347" stroke="#e2dcd0" stroke-width="1"/>
 <rect x="30" y="349" width="820" height="33" rx="3" fill="#d5ead6" stroke="#2f6b3a" stroke-width="1.5"/>
 <text x="36" y="371" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#2f6b3a">+</text>

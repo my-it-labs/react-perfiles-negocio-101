@@ -27,11 +27,11 @@ Con eso ya se puede escribir todo lo que sigue.
 | ID | Concepto | Descripción |
 | --- | --- | --- |
 | ALC.1 | Anexo de pantallas | Forma parte del alcance el anexo con la relación de pantallas: medida, resolución, orientación y número de unidades de cada combinación. |
-| ALC.2 **React** | Entorno de construcción | El suministro incluye el entorno para fabricar el paquete instalable y una copia de todos los componentes de terceros utilizados. |
+| ALC.2 **React** | Entorno de construcción | El suministro incluye el entorno para fabricar el paquete instalable y una copia de todas las librerías de terceros utilizadas. |
 | ALC.3 **React** | Pruebas automáticas | El suministro incluye las pruebas automáticas de la aplicación y el documento para lanzarlas en un equipo sin preparación previa. |
 | ALC.4 | Herramienta de gestión | El suministro incluye la herramienta con la que el personal propio programa los contenidos, con su propia formación y su propia aceptación. |
 
-**Por qué ALC.2 y ALC.3.** En un desarrollo tradicional el código fuente y el compilador bastan para volver a fabricar. En React el paquete se monta sobre cientos de componentes de terceros que no viajan en el código, y las pruebas automáticas de pantalla son el único medio de comprobar en una tarde que un evolutivo no rompió lo anterior. Si no están en el listado, no se entregan.
+**Por qué ALC.2 y ALC.3.** En un desarrollo tradicional el código fuente y el compilador bastan para volver a fabricar. En React el paquete se monta sobre librerías de terceros que no viajan en el código, y las pruebas automáticas de pantalla son el único medio de comprobar en una tarde que un evolutivo no rompió lo anterior. Si no están en el listado, no se entregan.
 
 ## Requerimientos funcionales
 
@@ -63,16 +63,16 @@ Con eso ya se puede escribir todo lo que sigue.
 | ID | Concepto | Descripción |
 | --- | --- | --- |
 | RMOGT.1 | Fuentes | Se entregará el código fuente completo, con la propiedad intelectual del órgano de contratación, en el repositorio que este indique. |
-| RMOGT.2 **React** | Versiones exactas | Se entregará el fichero que fija la versión exacta de cada componente de terceros. Una relación aproximada no cumple este requerimiento. |
-| RMOGT.3 **React** | Copia de componentes | Se entregará copia de todos los componentes de terceros, de forma que el paquete pueda fabricarse sin acceso a internet. |
-| RMOGT.4 | Licencias | Se entregará la relación de licencias de los componentes, con declaración de que ninguna impone obligaciones sobre los desarrollos propios. |
+| RMOGT.2 **React** | Versiones exactas | Se entregará el fichero que fija la versión exacta de cada librería de terceros. Una relación aproximada no cumple este requerimiento. |
+| RMOGT.3 **React** | Copia de las librerías | Se entregará copia de todas las librerías de terceros, de forma que el paquete pueda fabricarse sin acceso a internet. |
+| RMOGT.4 | Licencias | Se entregará la relación de licencias de las librerías, con declaración de que ninguna impone obligaciones sobre los desarrollos propios. |
 | RMOGT.5 **React** | Reconstrucción verificada | Antes de la recepción, personal del órgano de contratación fabricará el paquete siguiendo únicamente el documento de pasos y sin asistencia del adjudicatario. El resultado deberá coincidir con el instalado. |
 | RMOGT.6 **React** | Funcionamiento continuado | La aplicación funcionará en continuo durante al menos 30 días sin reinicio, con la memoria ocupada estable. Se medirá en las pruebas de aceptación y constará en el acta. |
 | RMOGT.7 **React** | Información temporal | Toda información con validez temporal se recalculará con el reloj del equipo, y no a partir del momento en que la aplicación se inició. |
 | RMOGT.8 | Reinicio autónomo | Si la aplicación deja de responder, el equipo la reiniciará por sí mismo y mostrará el contenido de reserva mientras lo hace. |
 | RMOGT.9 **React** | Registros | Los fallos de la aplicación se incorporarán a los registros del equipo, con los mismos niveles y el mismo mecanismo de recogida que el resto del sistema. No se considerará cumplido si solo son accesibles desde el propio navegador. |
 
-**Por qué RMOGT.2, RMOGT.3 y RMOGT.5.** Las fuentes ya se piden en cualquier desarrollo. En React no bastan: el paquete se fabrica bajando de internet cientos de componentes que no están en el código. A los dos años un componente ya no está, o está en otra versión, y lo que sale deja de ser lo que se recibió. La reconstrucción hecha por personal propio, antes de firmar, es la única prueba de que eso no va a pasar.
+**Por qué RMOGT.2, RMOGT.3 y RMOGT.5.** Las fuentes ya se piden en cualquier desarrollo. En React no bastan: el paquete se fabrica bajando de internet las librerías de terceros, que no están en el código. A los dos años una librería ya no está, o está en otra versión, y lo que sale deja de ser lo que se recibió. La reconstrucción hecha por personal propio, antes de firmar, es la única prueba de que eso no va a pasar.
 
 **Por qué RMOGT.6, RMOGT.7 y RMOGT.9.** Un programa de equipo se reinicia con el equipo. Una aplicación React puede llevar once días sin volver a empezar, porque nadie la cierra: se come la memoria hasta el negro, el contador se queda en el minuto en que se abrió, y los fallos se escriben en un sitio al que solo se llega enchufando un teclado. Nada de eso se cubre con los requerimientos de la CPU.
 
@@ -94,7 +94,7 @@ Con eso ya se puede escribir todo lo que sigue.
 
 Once requerimientos. El resto se escribiría igual para cualquier tecnología.
 
-- **Se fabrica, no se instala.** `ALC.2`, `RMOGT.2`, `RMOGT.3`, `RMOGT.5`: el código fuente no basta porque la despensa está en internet.
+- **Se fabrica, no se instala.** `ALC.2`, `RMOGT.2`, `RMOGT.3`, `RMOGT.5`: el código fuente no basta porque las librerías de terceros se bajan de internet cada vez que se fabrica el paquete.
 - **Nadie la cierra nunca.** `RFUN.6`, `RMOGT.6`, `RMOGT.7`, `RMOGT.9`: vive semanas en un navegador y se degrada sola.
 - **No hay clases que dibujar.** `RGP.1`: el diagrama de siempre no existe; hay que pedir otra cosa.
 - **No deja un servidor encendido.** `RARQ.1`: si se queda uno, entra en el inventario de veinte años.

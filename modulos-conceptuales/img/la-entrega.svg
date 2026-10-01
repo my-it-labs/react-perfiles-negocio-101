@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img">
-<title>La caja que entrega el proveedor lleva la receta y la lista, pero la despensa vive en internet.</title>
+<title>Lo que entrega el proveedor es el código fuente y la lista de nombres. Las librerías de terceros están en internet.</title>
 <rect width="100%" height="100%" fill="#f3efe6"/>
 <defs>
   <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
@@ -15,50 +15,40 @@
 <rect x="40" y="56" width="380" height="200" rx="10" fill="#f8e6b0" stroke="#8d6a12" stroke-width="2"/>
 <text x="64" y="92" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="700" fill="#1e2430">Lo que te entregan</text>
 <rect x="64" y="110" width="156" height="120" rx="6" fill="#fffdf8" stroke="#8d6a12" stroke-width="1.5"/>
-<text x="78" y="138" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1e2430">La receta</text>
-<text x="78" y="158" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#5c6570">el código escrito aquí</text>
+<text x="78" y="138" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1e2430">Código fuente</text>
+<text x="78" y="158" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#5c6570">lo escrito para este encargo</text>
 <rect x="78" y="174" width="110" height="6" rx="3" fill="#e2dcd0" stroke="#e2dcd0" stroke-width="0"/>
 <rect x="78" y="188" width="98" height="6" rx="3" fill="#e2dcd0" stroke="#e2dcd0" stroke-width="0"/>
 <rect x="78" y="202" width="86" height="6" rx="3" fill="#e2dcd0" stroke="#e2dcd0" stroke-width="0"/>
 <rect x="78" y="216" width="74" height="6" rx="3" fill="#e2dcd0" stroke="#e2dcd0" stroke-width="0"/>
 <rect x="236" y="110" width="156" height="120" rx="6" fill="#fffdf8" stroke="#8d6a12" stroke-width="1.5"/>
-<text x="250" y="138" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1e2430">La lista de la compra</text>
-<text x="250" y="158" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#5c6570">los nombres de lo demás</text>
+<text x="250" y="138" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1e2430">Lista de librerías</text>
+<text x="250" y="158" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="400" fill="#5c6570">los nombres, no las librerías</text>
 <rect x="250" y="174" width="110" height="6" rx="3" fill="#e2dcd0" stroke="#e2dcd0" stroke-width="0"/>
 <rect x="250" y="188" width="98" height="6" rx="3" fill="#e2dcd0" stroke="#e2dcd0" stroke-width="0"/>
 <rect x="250" y="202" width="86" height="6" rx="3" fill="#e2dcd0" stroke="#e2dcd0" stroke-width="0"/>
 <rect x="250" y="216" width="74" height="6" rx="3" fill="#e2dcd0" stroke="#e2dcd0" stroke-width="0"/>
 <rect x="472" y="56" width="368" height="200" rx="12" fill="#fffdf8" stroke="#5c6b7a" stroke-width="1.5"/>
-<text x="496" y="92" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="700" fill="#1e2430">La despensa está en internet</text>
-<text x="496" y="116" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#5c6570">Cientos de piezas hechas por otros</text>
+<text x="496" y="92" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="700" fill="#1e2430">Las librerías están en internet</text>
+<text x="496" y="116" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#5c6570">Hechas por otros. Se bajan al fabricar.</text>
 <rect x="496" y="136" width="52" height="44" rx="5" fill="#e7e2d8" stroke="#8a8175" stroke-width="1.5"/>
-<rect x="508" y="130" width="28" height="8" rx="3" fill="#c9c1b4" stroke="#8a8175" stroke-width="1.5"/>
 <rect x="564" y="136" width="52" height="44" rx="5" fill="#e7e2d8" stroke="#8a8175" stroke-width="1.5"/>
-<rect x="576" y="130" width="28" height="8" rx="3" fill="#c9c1b4" stroke="#8a8175" stroke-width="1.5"/>
 <rect x="632" y="136" width="52" height="44" rx="5" fill="#e7e2d8" stroke="#8a8175" stroke-width="1.5"/>
-<rect x="644" y="130" width="28" height="8" rx="3" fill="#c9c1b4" stroke="#8a8175" stroke-width="1.5"/>
 <rect x="700" y="136" width="52" height="44" rx="5" fill="#e7e2d8" stroke="#8a8175" stroke-width="1.5"/>
-<rect x="712" y="130" width="28" height="8" rx="3" fill="#c9c1b4" stroke="#8a8175" stroke-width="1.5"/>
 <rect x="768" y="136" width="52" height="44" rx="5" fill="#e7e2d8" stroke="#8a8175" stroke-width="1.5"/>
-<rect x="780" y="130" width="28" height="8" rx="3" fill="#c9c1b4" stroke="#8a8175" stroke-width="1.5"/>
 <rect x="496" y="194" width="52" height="44" rx="5" fill="#e7e2d8" stroke="#8a8175" stroke-width="1.5"/>
-<rect x="508" y="188" width="28" height="8" rx="3" fill="#c9c1b4" stroke="#8a8175" stroke-width="1.5"/>
 <rect x="564" y="194" width="52" height="44" rx="5" fill="#e7e2d8" stroke="#8a8175" stroke-width="1.5"/>
-<rect x="576" y="188" width="28" height="8" rx="3" fill="#c9c1b4" stroke="#8a8175" stroke-width="1.5"/>
 <rect x="632" y="194" width="52" height="44" rx="5" fill="#e7e2d8" stroke="#8a8175" stroke-width="1.5"/>
-<rect x="644" y="188" width="28" height="8" rx="3" fill="#c9c1b4" stroke="#8a8175" stroke-width="1.5"/>
 <rect x="700" y="194" width="52" height="44" rx="5" fill="#e7e2d8" stroke="#8a8175" stroke-width="1.5"/>
-<rect x="712" y="188" width="28" height="8" rx="3" fill="#c9c1b4" stroke="#8a8175" stroke-width="1.5"/>
 <rect x="768" y="194" width="52" height="44" rx="5" fill="#e7e2d8" stroke="#8a8175" stroke-width="1.5"/>
-<rect x="780" y="188" width="28" height="8" rx="3" fill="#c9c1b4" stroke="#8a8175" stroke-width="1.5"/>
 <line x1="424" y1="150" x2="468" y2="150" stroke="#1e3a5f" stroke-width="2.2" marker-end="url(#arr)"/>
-<text x="440" y="302" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#3d4654">La despensa no viene en la caja. Se baja de internet cada vez que se construye.</text>
+<text x="440" y="302" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#3d4654">Las librerías no vienen con el código. Se bajan de internet cada vez que se fabrica el paquete.</text>
 <rect x="40" y="332" width="390" height="112" rx="10" fill="#f6d5ce" stroke="#9a4638" stroke-width="2"/>
 <text x="64" y="366" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#9a4638">Dentro de dos años</text>
-<text x="64" y="394" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">falta un tarro, o está en otra versión.</text>
+<text x="64" y="394" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">una librería ya no está, o está en otra versión.</text>
 <text x="64" y="418" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">Lo que sale ya no es lo que te dieron.</text>
 <rect x="450" y="332" width="390" height="112" rx="10" fill="#d5ead6" stroke="#2f6b3a" stroke-width="2"/>
 <text x="474" y="366" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#2f6b3a">Lo que hay que pedir</text>
-<text x="474" y="394" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">Una copia de la despensa, en casa.</text>
-<text x="474" y="418" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">Y montarlo una vez sin el proveedor.</text>
+<text x="474" y="394" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">Una copia de esas librerías, guardada.</text>
+<text x="474" y="418" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#3d4654">Y fabricarlo una vez sin el proveedor.</text>
 </svg>

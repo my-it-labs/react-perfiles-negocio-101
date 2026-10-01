@@ -793,7 +793,7 @@ def alcance_listado():
         ("Formación", "Al personal que programa los contenidos", False),
         ("Garantía y mantenimiento", "Durante el plazo del contrato", False),
         ("Bolsa de horas", "Evolutivos posteriores a la recepción", False),
-        ("Entorno de construcción", "Componentes de terceros y pasos para reconstruir", True),
+        ("Entorno de construcción", "Librerías de terceros y pasos para reconstruir", True),
         ("Pruebas automáticas", "Y el documento para lanzarlas en un equipo limpio", True),
         ("Anexo de pantallas", "Medidas, resoluciones, orientaciones y unidades", True),
     ]
@@ -811,36 +811,35 @@ def alcance_listado():
 
 def la_entrega():
     body = []
-    # la caja que llega
     body.append(rrect(40, 56, 380, 200, "#f8e6b0", "#8d6a12", 2, 10))
     body.append(t(64, 92, "Lo que te entregan", 17, weight="700"))
-    for i, (titulo, sub) in enumerate([("La receta", "el código escrito aquí"), ("La lista de la compra", "los nombres de lo demás")]):
+    for i, (titulo, sub) in enumerate(
+        [("Código fuente", "lo escrito para este encargo"), ("Lista de librerías", "los nombres, no las librerías")]
+    ):
         x = 64 + i * 172
         body.append(rrect(x, 110, 156, 120, "#fffdf8", "#8d6a12", 1.5, 6))
         body.append(t(x + 14, 138, titulo, 14, weight="700"))
         body.append(t(x + 14, 158, sub, 12, "#5c6570"))
         for j in range(4):
             body.append(rrect(x + 14, 174 + j * 14, 110 - j * 12, 6, "#e2dcd0", "#e2dcd0", 0, 3))
-    # la despensa de internet
     body.append(rrect(472, 56, 368, 200, "#fffdf8", "#5c6b7a", 1.5, 12))
-    body.append(t(496, 92, "La despensa está en internet", 17, weight="700"))
-    body.append(t(496, 116, "Cientos de piezas hechas por otros", 13, "#5c6570"))
+    body.append(t(496, 92, "Las librerías están en internet", 17, weight="700"))
+    body.append(t(496, 116, "Hechas por otros. Se bajan al fabricar.", 13, "#5c6570"))
     for i in range(10):
         x = 496 + (i % 5) * 68
         y = 136 + (i // 5) * 58
         body.append(rrect(x, y, 52, 44, "#e7e2d8", "#8a8175", 1.5, 5))
-        body.append(rrect(x + 12, y - 6, 28, 8, "#c9c1b4", "#8a8175", 1.5, 3))
     body.append(arrow(424, 150, 468, 150))
-    body.append(t(440, 302, "La despensa no viene en la caja. Se baja de internet cada vez que se construye.", 16, "#3d4654", "middle"))
+    body.append(t(440, 302, "Las librerías no vienen con el código. Se bajan de internet cada vez que se fabrica el paquete.", 16, "#3d4654", "middle"))
     body.append(rrect(40, 332, 390, 112, "#f6d5ce", "#9a4638", 2, 10))
     body.append(t(64, 366, "Dentro de dos años", 15, "#9a4638", weight="700"))
-    body.append(t(64, 394, "falta un tarro, o está en otra versión.", 14, "#3d4654"))
+    body.append(t(64, 394, "una librería ya no está, o está en otra versión.", 14, "#3d4654"))
     body.append(t(64, 418, "Lo que sale ya no es lo que te dieron.", 14, "#3d4654"))
     body.append(rrect(450, 332, 390, 112, "#d5ead6", "#2f6b3a", 2, 10))
     body.append(t(474, 366, "Lo que hay que pedir", 15, "#2f6b3a", weight="700"))
-    body.append(t(474, 394, "Una copia de la despensa, en casa.", 14, "#3d4654"))
-    body.append(t(474, 418, "Y montarlo una vez sin el proveedor.", 14, "#3d4654"))
-    return svg(880, 476, "La caja que entrega el proveedor lleva la receta y la lista, pero la despensa vive en internet.", "\n".join(body))
+    body.append(t(474, 394, "Una copia de esas librerías, guardada.", 14, "#3d4654"))
+    body.append(t(474, 418, "Y fabricarlo una vez sin el proveedor.", 14, "#3d4654"))
+    return svg(880, 476, "Lo que entrega el proveedor es el código fuente y la lista de nombres. Las librerías de terceros están en internet.", "\n".join(body))
 
 
 def dias_seguidos():
