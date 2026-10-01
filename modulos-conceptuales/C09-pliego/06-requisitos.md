@@ -1,6 +1,6 @@
 # Requisitos para pegar en un pliego
 
-[← Página anterior](06-la-recepcion.md) · [Siguiente página →](../../modulos/M01-ecosistema-react/README.md)
+[← Página anterior](05-la-recepcion.md) · [Siguiente página →](../../modulos/M01-ecosistema-react/README.md)
 
 Veintidós requisitos para la parte de aplicación de un pliego de sistema. Esta página no se lee en clase: es la hoja que se abre el día de redactar.
 

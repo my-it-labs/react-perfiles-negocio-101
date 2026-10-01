@@ -771,46 +771,9 @@ def pliego_hueco():
     body.append(t(52, 384, "La aplicación que se ve", 14, "#5c6570"))
     body.append(t(52, 412, "R.13", 11, "#8a8175"))
     body.append(rrect(94, 396, 700, 26, "#f8e6b0", "#8d6a12", 2, 6))
-    body.append(t(108, 414, "Será una aplicación web progresiva y responsive.", 13))
+    body.append(t(108, 414, "Será una aplicación web progresiva (React) y responsive.", 13))
     body.append(t(440, 486, "Mismo documento. Doce requisitos para la caja. Uno para lo único que ve el viajero.", 16, "#3d4654", "middle"))
     return svg(880, 520, "Hoja de prescripciones con doce requisitos para el equipo y uno solo para la aplicación.", "\n".join(body))
-
-
-def libreria_framework():
-    body = []
-    paneles = [
-        (28, "Librería", "Una caja de herramientas", ["Tú llevas la obra.", "Coges la que te hace falta."], "React es esto."),
-        (310, "Framework", "Una casa ya construida", ["Las paredes vienen puestas.", "Tú amueblas las habitaciones."], "Next.js es esto."),
-        (592, "Taller", "Una mesa de empaquetar", ["Prepara el paquete y se apaga.", "No deja nada suyo encendido."], "Vite es esto."),
-    ]
-    for x, titulo, sub, lineas, quien in paneles:
-        body.append(rrect(x, 28, 260, 380, "#fffdf8", "#e2dcd0", 1.5, 16))
-        body.append(t(x + 24, 66, titulo, 19, weight="700"))
-        body.append(t(x + 24, 92, sub, 14, "#5c6570"))
-        for i, linea in enumerate(lineas):
-            body.append(t(x + 24, 304 + i * 24, linea, 14, "#3d4654"))
-        body.append(rrect(x + 24, 344, 212, 36, "#d9e6f2", "#2c5f94", 1.5, 8))
-        body.append(t(x + 130, 368, quien, 14, "#1e3a5f", "middle", "700"))
-    # caja de herramientas
-    body.append(rrect(118, 150, 28, 44, "#c9c1b4", "#8a8175", 1.5, 3))
-    body.append(rrect(152, 138, 16, 56, "#c9c1b4", "#8a8175", 1.5, 3))
-    body.append(rrect(174, 158, 24, 36, "#c9c1b4", "#8a8175", 1.5, 3))
-    body.append(rrect(98, 190, 120, 70, "#f8e6b0", "#8d6a12", 2, 8))
-    body.append(rrect(136, 174, 44, 18, "#f3efe6", "#8d6a12", 2, 9))
-    # casa
-    body.append('<polygon points="364,180 440,126 516,180" fill="#2c5f94"/>')
-    body.append(rrect(372, 180, 136, 80, "#d9e6f2", "#2c5f94", 2, 4))
-    body.append(rrect(386, 196, 48, 28, "#fffdf8", "#2c5f94", 1.5, 3))
-    body.append(rrect(446, 196, 48, 28, "#fffdf8", "#2c5f94", 1.5, 3))
-    body.append(rrect(386, 234, 108, 18, "#fffdf8", "#2c5f94", 1.5, 3))
-    # mesa de empaquetar
-    for i in range(3):
-        body.append(rrect(636 + i * 26, 146, 20, 20, "#e2dcd0", "#8a8175", 1.5, 3))
-    body.append(arrow(650, 182, 650, 202))
-    body.append(rrect(624, 206, 124, 56, "#d5ead6", "#2f6b3a", 2, 6))
-    body.append(t(686, 240, "paquete", 14, "#2f6b3a", "middle", "700"))
-    body.append(t(440, 448, "Las tres palabras que hay que tener claras antes de discutir una oferta.", 16, "#3d4654", "middle"))
-    return svg(880, 480, "Tres paneles: la librería como caja de herramientas, el framework como casa ya construida y el taller como mesa de empaquetar.", "\n".join(body))
 
 
 def dos_pantallas():
@@ -838,14 +801,13 @@ def dos_pantallas():
     body.append(t(472, 282, "Usuario, contraseña y permisos.", 15, "#3d4654"))
     body.append(t(472, 306, "Datos que no salen del edificio.", 15, "#3d4654"))
     body.append(t(472, 330, "Claves de otros sistemas.", 15, "#3d4654"))
-    # las dos preguntas
+    # dos objetos, dos recepciones
     body.append(rrect(48, 362, 784, 112, "#fffdf8", "#1e3a5f", 2, 12))
-    body.append(t(72, 394, "Las dos preguntas que lo deciden", 15, weight="700"))
-    body.append(t(72, 424, "1.  ¿Alguien se identifica para entrar?", 15, "#1e2430"))
-    body.append(t(72, 452, "2.  ¿Hay algo que no puede viajar al navegador?", 15, "#1e2430"))
-    body.append(t(812, 424, "Las dos no: no hace falta servidor propio.", 14, "#2f6b3a", "end"))
-    body.append(t(812, 452, "Alguna sí: ese servidor tiene sentido.", 14, "#8d6a12", "end"))
-    return svg(880, 500, "Dos pantallas distintas: la del público, sin nadie delante, y el puesto del personal, con usuario y contraseña.", "\n".join(body))
+    body.append(t(72, 394, "Dos objetos en el mismo expediente", 15, weight="700"))
+    body.append(t(72, 424, "Cada uno con sus requisitos, su prueba de aceptación,", 15, "#1e2430"))
+    body.append(t(72, 452, "su formación y su garantía.", 15, "#1e2430"))
+    body.append(t(812, 438, "Descritos como uno solo, la oferta presupuesta el barato.", 14, "#9a4638", "end"))
+    return svg(880, 500, "Dos cosas distintas en el mismo expediente: la pantalla del público, sin nadie delante, y el puesto del personal, con usuario y contraseña.", "\n".join(body))
 
 
 def la_entrega():
@@ -969,7 +931,6 @@ def main():
         "cualidades.svg": calidad(),
         "muro-alarma.svg": muro(),
         "pliego-el-hueco.svg": pliego_hueco(),
-        "libreria-framework-taller.svg": libreria_framework(),
         "dos-pantallas.svg": dos_pantallas(),
         "la-entrega.svg": la_entrega(),
         "dias-seguidos.svg": dias_seguidos(),

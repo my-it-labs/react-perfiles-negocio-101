@@ -1,6 +1,6 @@
 # Cómo se comprueba que está bien
 
-[← Página anterior](05-dias-seguidos.md) · [Siguiente página →](07-requisitos.md)
+[← Página anterior](04-dias-seguidos.md) · [Siguiente página →](06-requisitos.md)
 
 ![La misma pantalla en cuatro casos de prueba: con datos muestra tres avisos, sin datos muestra «No hay avisos», con error muestra «No se ha podido cargar», y con un dato mal formado muestra los dos correctos y descarta el tercero.](../img/pruebas-cuatro-casos.svg)
 

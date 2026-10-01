@@ -1,10 +1,10 @@
 # Una frase no es un requisito
 
-[← Página anterior](README.md) · [Siguiente página →](02-tres-palabras.md)
+[← Página anterior](README.md) · [Siguiente página →](02-dos-encargos.md)
 
 ![Hoja de prescripciones técnicas con doce requisitos para el equipo, las comunicaciones y la instalación, y un solo requisito, resaltado, para la aplicación que se ve.](../img/pliego-el-hueco.svg)
 
-- **La frase.** En los pliegos de sistemas con pantallas, la aplicación cabe en una línea: «será una aplicación web progresiva y responsive». Está bien escrita. No es un requisito.
+- **La frase.** En los pliegos de sistemas con pantallas, la aplicación cabe en una línea: «será una aplicación web progresiva (React) y responsive». Está bien escrita. No es un requisito.
 
 - **La asimetría.** En el mismo documento, el equipo que la sostiene lleva doce o veinte requisitos que alguien puede ir a comprobar con un cronómetro en la mano. Lo único que el viajero ve no tiene ninguno.
 

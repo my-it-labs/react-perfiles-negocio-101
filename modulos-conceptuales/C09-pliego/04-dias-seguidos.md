@@ -1,6 +1,6 @@
 # La pantalla que no se apaga
 
-[← Página anterior](04-la-entrega.md) · [Siguiente página →](06-la-recepcion.md)
+[← Página anterior](03-la-entrega.md) · [Siguiente página →](05-la-recepcion.md)
 
 ![La misma pantalla en cuatro momentos: el día 1 marca 3 min, el día 4 marca 6 min, el día 8 sigue marcando 6 min en ámbar y el día 11 está en negro. Debajo, una barra de memoria ocupada que sube en cada paso.](../img/dias-seguidos.svg)
 

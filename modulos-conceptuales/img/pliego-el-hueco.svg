@@ -42,6 +42,6 @@
 <text x="52" y="384" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#5c6570">La aplicación que se ve</text>
 <text x="52" y="412" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="400" fill="#8a8175">R.13</text>
 <rect x="94" y="396" width="700" height="26" rx="6" fill="#f8e6b0" stroke="#8d6a12" stroke-width="2"/>
-<text x="108" y="414" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1e2430">Será una aplicación web progresiva y responsive.</text>
+<text x="108" y="414" text-anchor="start" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="400" fill="#1e2430">Será una aplicación web progresiva (React) y responsive.</text>
 <text x="440" y="486" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#3d4654">Mismo documento. Doce requisitos para la caja. Uno para lo único que ve el viajero.</text>
 </svg>
