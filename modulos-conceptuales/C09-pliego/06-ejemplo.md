@@ -10,11 +10,11 @@ No hay nada clausular aquí: ni precio, ni solvencia, ni plazos, ni penalizacion
 
 ## El supuesto
 
-**AVISOS.** Pantallas instaladas en dependencias que muestran los avisos internos vigentes y el estado de las líneas. No existe: está inventada para este ejercicio.
+**AVISOS.** Pantallas instaladas en dependencias que muestran los avisos internos vigentes y el estado del servicio. No existe: está inventada para este ejercicio.
 
 - **Quién la mira.** Personal de la dependencia, de paso. Nadie se identifica y nadie toca nada.
 - **Quién la alimenta.** Comunicación interna, desde una herramienta con usuario y perfil.
-- **De dónde salen los datos.** Dos servicios de TMB: uno de avisos internos y otro de estado de líneas.
+- **De dónde salen los datos.** Dos servicios internos: uno de avisos y otro de estado del servicio.
 - **Dónde corre.** En el navegador de una CPU por dependencia, encendida en continuo.
 - **Cuántas pantallas.** 60 unidades, dos medidas, una de ellas en vertical.
 
@@ -27,7 +27,7 @@ Con eso ya se puede escribir todo lo que sigue.
 | ALC.1 | Anexo de pantallas | Forma parte del alcance el anexo con la relación de pantallas: medida, resolución, orientación y número de unidades de cada combinación. |
 | ALC.2 | Entorno de construcción | El suministro incluye el entorno para fabricar el paquete instalable y una copia de todos los componentes de terceros utilizados. |
 | ALC.3 | Pruebas automáticas | El suministro incluye las pruebas automáticas de la aplicación y el documento para lanzarlas en un equipo sin preparación previa. |
-| ALC.4 | Herramienta de gestión | El suministro incluye la herramienta con la que el personal de TMB programa los contenidos, con su propia formación y su propia aceptación. |
+| ALC.4 | Herramienta de gestión | El suministro incluye la herramienta con la que el personal propio programa los contenidos, con su propia formación y su propia aceptación. |
 
 ## Requerimientos funcionales
 
@@ -35,7 +35,7 @@ Con eso ya se puede escribir todo lo que sigue.
 | --- | --- | --- |
 | RFUN.1 | Aplicación | El contenido de la pantalla será una aplicación web progresiva (React) responsive, que se adaptará a todas las combinaciones del anexo ALC.1. |
 | RFUN.2 | Adaptación comprobable | El adjudicatario entregará una imagen de la aplicación en funcionamiento por cada combinación del anexo, para aprobación previa a las pruebas de aceptación. |
-| RFUN.3 | Sin datos | Cuando el servicio de avisos responda sin avisos vigentes, la pantalla mostrará el texto que TMB apruebe, y no una zona vacía. |
+| RFUN.3 | Sin datos | Cuando el servicio de avisos responda sin avisos vigentes, la pantalla mostrará el texto aprobado en el diseño previo, y no una zona vacía. |
 | RFUN.4 | Con error | Cuando el servicio de avisos no responda, responda con error o responda algo inesperado, se reintentará dos veces con intervalos de cinco segundos. Si ninguna tiene éxito, se mantendrá el último contenido válido descargado. |
 | RFUN.5 | Dato mal formado | Si un aviso concreto llega con estructura o contenido inesperado, se ignorará ese aviso y se mostrarán los correctos. |
 | RFUN.6 | Recuperación | Al restablecerse la comunicación, la aplicación volverá a solicitar toda la información que esté mostrando, sin esperar al siguiente ciclo de refresco. |
@@ -54,11 +54,11 @@ Con eso ya se puede escribir todo lo que sigue.
 
 | ID | Concepto | Descripción |
 | --- | --- | --- |
-| RMOGT.1 | Fuentes | Se entregará el código fuente completo, con la propiedad intelectual de TMB, en el repositorio que TMB indique. |
+| RMOGT.1 | Fuentes | Se entregará el código fuente completo, con la propiedad intelectual del órgano de contratación, en el repositorio que este indique. |
 | RMOGT.2 | Versiones exactas | Se entregará el fichero que fija la versión exacta de cada componente de terceros. Una relación aproximada no cumple este requerimiento. |
 | RMOGT.3 | Copia de componentes | Se entregará copia de todos los componentes de terceros, de forma que el paquete pueda fabricarse sin acceso a internet. |
-| RMOGT.4 | Licencias | Se entregará la relación de licencias de los componentes, con declaración de que ninguna impone obligaciones sobre los desarrollos propios de TMB. |
-| RMOGT.5 | Reconstrucción verificada | Antes de la recepción, personal de TMB fabricará el paquete siguiendo únicamente el documento de pasos y sin asistencia del adjudicatario. El resultado deberá coincidir con el instalado. |
+| RMOGT.4 | Licencias | Se entregará la relación de licencias de los componentes, con declaración de que ninguna impone obligaciones sobre los desarrollos propios. |
+| RMOGT.5 | Reconstrucción verificada | Antes de la recepción, personal del órgano de contratación fabricará el paquete siguiendo únicamente el documento de pasos y sin asistencia del adjudicatario. El resultado deberá coincidir con el instalado. |
 | RMOGT.6 | Funcionamiento continuado | La aplicación funcionará en continuo durante al menos 30 días sin reinicio, con la memoria ocupada estable. Se medirá en las pruebas de aceptación y constará en el acta. |
 | RMOGT.7 | Información temporal | Toda información con validez temporal se recalculará con el reloj del equipo, y no a partir del momento en que la aplicación se inició. |
 | RMOGT.8 | Reinicio autónomo | Si la aplicación deja de responder, el equipo la reiniciará por sí mismo y mostrará el contenido de reserva mientras lo hace. |
@@ -69,9 +69,9 @@ Con eso ya se puede escribir todo lo que sigue.
 | ID | Concepto | Descripción |
 | --- | --- | --- |
 | RGP.1 | Inventario de componentes | Se entregará la relación de todos los componentes visuales de la aplicación, indicando para cada uno qué muestra, dentro de cuál aparece, qué datos recibe y de qué sistema o servicio sale cada dato. Sustituye al diagrama de clases para esta parte del suministro. |
-| RGP.2 | Diseño previo | El diseño de cada pantalla se aprobará por TMB antes de su construcción, incluyendo los estados de los requerimientos RFUN.3 a RFUN.7. |
+| RGP.2 | Diseño previo | El diseño de cada pantalla se aprobará por el órgano de contratación antes de su construcción, incluyendo los estados de los requerimientos RFUN.3 a RFUN.7. |
 | RGP.3 | Cobertura del plan de pruebas | El plan de pruebas recorrerá la totalidad de la tabla de averías, con una prueba por cada situación y tipo de contenido, indicando el resultado esperado en pantalla. |
-| RGP.4 | Pruebas como condición | Las pruebas automáticas de ALC.3 se lanzarán en presencia de TMB como condición de recepción y deberán superarse todas. |
+| RGP.4 | Pruebas como condición | Las pruebas automáticas de ALC.3 se lanzarán en presencia del órgano de contratación como condición de recepción y deberán superarse todas. |
 | RGP.5 | Informe de resultados | El resultado de las pruebas se entregará como informe legible sin herramientas adicionales, con cada prueba, su resultado y la fecha de ejecución. Se repetirá en cada entrega posterior sobre el mismo sistema. |
 
 ## Si solo entran cinco

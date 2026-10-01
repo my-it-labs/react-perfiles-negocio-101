@@ -14,4 +14,4 @@
 
 - **Las condiciones técnicas mínimas también se escriben.** Si el apartado existe y la aplicación no tiene las suyas, se dan por cumplidas todas.
 
-**Tip.** Antes de publicar, leer el listado y hacerse una sola pregunta: con esto en la mano, ¿puede TMB volver a fabricar la aplicación dentro de tres años sin este proveedor? Si la respuesta no es un sí claro, falta una línea.
+**Tip.** Antes de publicar, leer el listado y hacerse una sola pregunta: con esto en la mano, ¿se puede volver a fabricar la aplicación dentro de tres años sin este proveedor? Si la respuesta no es un sí claro, falta una línea.

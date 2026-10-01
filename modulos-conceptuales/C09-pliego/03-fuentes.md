@@ -10,7 +10,7 @@
 
 - **Lo que pasa a los dos años.** Un componente ya no está donde estaba, o está en otra versión. Lo que sale deja de ser lo que te entregaron, y nadie puede explicar por qué, porque el proveedor cumplió el pliego.
 
-- **Tres líneas que lo cierran.** El fichero donde queda anotada la versión exacta de cada componente. Una copia de los componentes guardada en TMB, para poder fabricar sin internet. Y la reconstrucción hecha por personal de TMB, en un equipo limpio, antes de firmar la recepción.
+- **Tres líneas que lo cierran.** El fichero donde queda anotada la versión exacta de cada componente. Una copia de los componentes en poder del órgano de contratación, para poder fabricar sin internet. Y la reconstrucción hecha por personal propio, en un equipo limpio, antes de firmar la recepción.
 
 - **La última es la única que cierra el riesgo de verdad.** Y es una tarde.
 

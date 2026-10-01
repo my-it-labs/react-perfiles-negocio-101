@@ -873,10 +873,10 @@ def dias_seguidos():
 def pruebas_casos():
     body = []
     casos = [
-        ("#2f6b3a", "#d5ead6", "Con datos", "Se ven los tres avisos.", ["Aviso en L2", "Aviso en L4", "Obras en B12"]),
+        ("#2f6b3a", "#d5ead6", "Con datos", "Se ven los tres avisos.", ["Aviso en la zona 2", "Aviso en la zona 4", "Obras en el acceso"]),
         ("#6f675c", "#e7e2d8", "Sin datos", "«No hay avisos.»", []),
         ("#9a4638", "#f6d5ce", "Con error", "«No se ha podido cargar.»", []),
-        ("#8d6a12", "#f8e6b0", "Un dato mal formado", "Se ven los correctos.", ["Aviso en L2", "Obras en B12"]),
+        ("#8d6a12", "#f8e6b0", "Un dato mal formado", "Se ven los correctos.", ["Aviso en la zona 2", "Obras en el acceso"]),
     ]
     for i, (stroke, fill, titulo, frase, filas) in enumerate(casos):
         x = 28 + i * 212

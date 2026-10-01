@@ -4,7 +4,7 @@
 
 ![La misma pantalla en cuatro casos de prueba: con datos muestra tres avisos, sin datos muestra «No hay avisos», con error muestra «No se ha podido cargar», y con un dato mal formado muestra los dos correctos y descarta el tercero.](../img/pruebas-cuatro-casos.svg)
 
-- **El marco ya existe.** Plan de pruebas que redacta el adjudicatario y aprueba TMB, pruebas en las instalaciones del proveedor, pruebas en destino, y acta con la lista de pruebas, el resultado de cada una y el cuadro de deficiencias.
+- **El marco ya existe.** Plan de pruebas que redacta el adjudicatario y aprueba el órgano de contratación, pruebas en las instalaciones del proveedor, pruebas en destino, y acta con la lista de pruebas, el resultado de cada una y el cuadro de deficiencias.
 
 - **Lo que falta es qué entra en esa lista por la parte de la aplicación.** Cuatro familias, y las cuatro se escriben sin saber programar.
 
@@ -16,7 +16,7 @@
 
 - **Lo que se puede volver a pasar.** Un programa aparte abre la aplicación, le entrega datos preparados —la lista normal, la lista vacía, una respuesta con error, un elemento mal formado— y comprueba que sale lo que el pliego dijo. Tarda segundos y no necesita el equipo real.
 
-- **Y se pide como condición de recepción.** Las pruebas automáticas se lanzan delante de TMB y tienen que pasar todas. Si no, no es una entrega, es una promesa.
+- **Y se pide como condición de recepción.** Las pruebas automáticas se lanzan en presencia del órgano de contratación y tienen que pasar todas. Si no, no es una entrega, es una promesa.
 
 ## Señales de alerta en un plan de pruebas
 
