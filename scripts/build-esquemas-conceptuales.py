@@ -776,39 +776,37 @@ def pliego_hueco():
     return svg(880, 520, "Hoja de prescripciones con doce requisitos para el equipo y uno solo para la aplicación.", "\n".join(body))
 
 
-def dos_pantallas():
+def alcance_listado():
     body = []
-    # el que se ve
-    body.append(rrect(48, 56, 360, 190, "#1e2430", "#1e2430", 0, 10))
-    body.append(rrect(60, 68, 336, 166, "#16222e", "#0d1620", 1.5, 6))
-    body.append(t(80, 100, "Avisos", 15, "#9fb4c7"))
-    for i, linea in enumerate(["Aviso en la zona 2", "Obras en el acceso norte"]):
-        y = 114 + i * 42
-        body.append(rrect(80, y, 290, 32, "#1e3340", "#2a4152", 1.5, 5))
-        body.append(t(94, y + 21, linea, 14, "#fffdf8"))
-    body.append(t(48, 286, "El que se ve", 17, weight="700"))
-    body.append(t(48, 316, "Nadie se identifica.", 15, "#3d4654"))
-    body.append(t(48, 340, "No hay perfiles ni permisos.", 15, "#3d4654"))
-    body.append(t(48, 364, "Se valida mirándolo.", 15, "#3d4654"))
-    # el que se usa
-    body.append(rrect(472, 56, 360, 190, "#fffdf8", "#2c333d", 2, 10))
-    body.append(rrect(472, 56, 360, 30, "#2c333d", "#2c333d", 0, 10))
-    body.append(rrect(472, 72, 360, 14, "#2c333d", "#2c333d", 0, 0))
-    body.append(t(652, 77, "Herramienta de gestión", 12, "#fffdf8", "middle"))
-    body.append(rrect(562, 104, 180, 122, "#f3efe6", "#c9c1b4", 1.5, 8))
-    body.append(t(580, 132, "Entrar", 15, weight="700"))
-    body.append(rrect(580, 144, 144, 20, "#fffdf8", "#c9c1b4", 1.5, 4))
-    body.append(rrect(580, 172, 144, 20, "#fffdf8", "#c9c1b4", 1.5, 4))
-    body.append(rrect(580, 198, 68, 20, "#1e3a5f", "#1e3a5f", 0, 4))
-    body.append(t(614, 213, "Acceder", 11, "#fffdf8", "middle", "700"))
-    body.append(t(472, 286, "El que se usa para gestionarlo", 17, weight="700"))
-    body.append(t(472, 316, "Usuarios, perfiles y permisos.", 15, "#3d4654"))
-    body.append(t(472, 340, "Registro de quién hizo qué.", 15, "#3d4654"))
-    body.append(t(472, 364, "Se valida entrando.", 15, "#3d4654"))
-    body.append(rrect(48, 396, 784, 68, "#fffdf8", "#1e3a5f", 2, 12))
-    body.append(t(440, 428, "Dos programas. Casi siempre se describen como uno.", 17, "#1e2430", "middle", "700"))
-    body.append(t(440, 452, "Y entonces la oferta presupuesta el que se ve.", 14, "#9a4638", "middle"))
-    return svg(880, 492, "Dos programas en el mismo pliego: el que se ve, sin nadie delante, y el que se usa para gestionarlo, con usuario y contraseña.", "\n".join(body))
+    body.append(rrect(28, 28, 824, 392, "#fffdf8", "#c9c1b4", 2, 6))
+    body.append(rrect(28, 28, 824, 34, "#9a4638", "#9a4638", 0, 6))
+    body.append(rrect(28, 46, 824, 16, "#9a4638", "#9a4638", 0, 0))
+    body.append(t(44, 52, "LISTADO RESUMEN DE SUMINISTROS Y SERVICIOS", 14, "#fffdf8", weight="700"))
+    body.append(t(44, 86, "Concepto", 13, "#1e2430", weight="700"))
+    body.append(t(260, 86, "Descripción", 13, "#1e2430", weight="700"))
+    body.append(f'<line x1="28" y1="96" x2="852" y2="96" stroke="#c9c1b4" stroke-width="1.5"/>')
+    body.append(f'<line x1="244" y1="62" x2="244" y2="420" stroke="#c9c1b4" stroke-width="1.5"/>')
+    filas = [
+        ("Ingeniería / Servicios", "Análisis, especificación, diseño, desarrollos, instalación", False),
+        ("Hardware", "Pantallas, CPU, carcasas y soportes", False),
+        ("Software", "La aplicación y la herramienta de gestión", False),
+        ("Formación", "Al personal que programa los contenidos", False),
+        ("Garantía y mantenimiento", "Durante el plazo del contrato", False),
+        ("Bolsa de horas", "Evolutivos posteriores a la recepción", False),
+        ("Entorno de construcción", "Componentes de terceros y pasos para reconstruir", True),
+        ("Pruebas automáticas", "Y el documento para lanzarlas en un equipo limpio", True),
+        ("Anexo de pantallas", "Medidas, resoluciones, orientaciones y unidades", True),
+    ]
+    for i, (concepto, desc, nuevo) in enumerate(filas):
+        y = 104 + i * 35
+        if nuevo:
+            body.append(rrect(30, y, 820, 33, "#d5ead6", "#2f6b3a", 1.5, 3))
+            body.append(t(36, y + 22, "+", 15, "#2f6b3a", weight="700"))
+        body.append(t(52, y + 22, concepto, 13, "#1e2430", weight="700"))
+        body.append(t(260, y + 22, desc, 13, "#3d4654"))
+        body.append(f'<line x1="28" y1="{y + 33}" x2="852" y2="{y + 33}" stroke="#e2dcd0" stroke-width="1"/>')
+    body.append(t(440, 462, "Las tres últimas no suelen estar. Lo que no está en el listado, no se entrega.", 16, "#3d4654", "middle"))
+    return svg(880, 490, "Listado resumen de suministros y servicios con tres líneas añadidas: entorno de construcción, pruebas automáticas y anexo de pantallas.", "\n".join(body))
 
 
 def la_entrega():
@@ -932,7 +930,7 @@ def main():
         "cualidades.svg": calidad(),
         "muro-alarma.svg": muro(),
         "pliego-el-hueco.svg": pliego_hueco(),
-        "dos-pantallas.svg": dos_pantallas(),
+        "alcance-listado.svg": alcance_listado(),
         "la-entrega.svg": la_entrega(),
         "dias-seguidos.svg": dias_seguidos(),
         "pruebas-cuatro-casos.svg": pruebas_casos(),
