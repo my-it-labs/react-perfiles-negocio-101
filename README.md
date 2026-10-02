@@ -16,7 +16,7 @@ Dos lecturas. Los [conceptos](modulos-conceptuales/README.md) explican el ecosis
 - [C06 — Next, Gatsby y Remix](modulos-conceptuales/C06-marcos/README.md)
 - [C07 — Web, móvil y escritorio](modulos-conceptuales/C07-hibridos/README.md)
 - [C08 — Casos guiados](modulos-conceptuales/C08-casos/README.md)
-- [C09 — El pliego](modulos-conceptuales/C09-pliego/README.md)
+- [C09 — Del pliego a la garantía](modulos-conceptuales/C09-pliego/README.md)
 
 ## Demos guiadas
 

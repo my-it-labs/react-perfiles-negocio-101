@@ -778,35 +778,24 @@ def pliego_hueco():
 
 def alcance_listado():
     body = []
-    body.append(rrect(28, 28, 824, 392, "#fffdf8", "#c9c1b4", 2, 6))
-    body.append(rrect(28, 28, 824, 34, "#9a4638", "#9a4638", 0, 6))
-    body.append(rrect(28, 46, 824, 16, "#9a4638", "#9a4638", 0, 0))
-    body.append(t(44, 52, "LISTADO RESUMEN DE SUMINISTROS Y SERVICIOS", 14, "#fffdf8", weight="700"))
-    body.append(t(44, 86, "Concepto", 13, "#1e2430", weight="700"))
-    body.append(t(260, 86, "Descripción", 13, "#1e2430", weight="700"))
-    body.append(f'<line x1="28" y1="96" x2="852" y2="96" stroke="#c9c1b4" stroke-width="1.5"/>')
-    body.append(f'<line x1="244" y1="62" x2="244" y2="420" stroke="#c9c1b4" stroke-width="1.5"/>')
-    filas = [
-        ("Ingeniería / Servicios", "Análisis, especificación, diseño, desarrollos, instalación", False),
-        ("Hardware", "Pantallas, CPU, carcasas y soportes", False),
-        ("Software", "La aplicación y la herramienta de gestión", False),
-        ("Formación", "Al personal que programa los contenidos", False),
-        ("Garantía y mantenimiento", "Durante el plazo del contrato", False),
-        ("Bolsa de horas", "Evolutivos posteriores a la recepción", False),
-        ("Entorno de construcción", "Librerías de terceros y pasos para reconstruir", True),
-        ("Pruebas automáticas", "Y el documento para lanzarlas en un equipo limpio", True),
-        ("Anexo de pantallas", "Medidas, resoluciones, orientaciones y unidades", True),
+    paneles = [
+        ("Entorno de construcción", ["Una máquina. Vale una virtual.", "Librerías, con versión y copia.", "Documento de pasos."]),
+        ("Pruebas automáticas", ["Unitarias y de extremo a extremo.", "En un entorno propio.", "Condición de recepción."]),
+        ("Anexo de pantallas", ["Medida, resolución, orientación.", "Dónde van y cuántas.", "Dibujo de cada pantalla."]),
     ]
-    for i, (concepto, desc, nuevo) in enumerate(filas):
-        y = 104 + i * 35
-        if nuevo:
-            body.append(rrect(30, y, 820, 33, "#d5ead6", "#2f6b3a", 1.5, 3))
-            body.append(t(36, y + 22, "+", 15, "#2f6b3a", weight="700"))
-        body.append(t(52, y + 22, concepto, 13, "#1e2430", weight="700"))
-        body.append(t(260, y + 22, desc, 13, "#3d4654"))
-        body.append(f'<line x1="28" y1="{y + 33}" x2="852" y2="{y + 33}" stroke="#e2dcd0" stroke-width="1"/>')
-    body.append(t(440, 462, "Las tres últimas no suelen estar. Lo que no está en el listado, no se entrega.", 16, "#3d4654", "middle"))
-    return svg(880, 490, "Listado resumen de suministros y servicios con tres líneas añadidas: entorno de construcción, pruebas automáticas y anexo de pantallas.", "\n".join(body))
+    for i, (titulo, lineas) in enumerate(paneles):
+        x = 28 + i * 284
+        body.append(rrect(x, 36, 268, 300, "#fffdf8", "#2f6b3a", 2, 14))
+        body.append(rrect(x, 36, 268, 64, "#d5ead6", "#2f6b3a", 0, 14))
+        body.append(rrect(x, 78, 268, 22, "#d5ead6", "#d5ead6", 0, 0))
+        body.append(t(x + 134, 76, titulo, 15, "#1e2430", "middle", "700"))
+        for j, linea in enumerate(lineas):
+            y = 130 + j * 58
+            body.append(rrect(x + 18, y, 232, 44, "#f3efe6", "#c9c1b4", 1.5, 8))
+            body.append(t(x + 134, y + 28, linea, 13, "#1e2430", "middle"))
+    body.append(t(440, 380, "Tres ámbitos del alcance. No son tres filas del pliego.", 16, "#3d4654", "middle"))
+    body.append(t(440, 408, "Las filas que los cubren están en el ejemplo, en las familias de siempre.", 16, "#3d4654", "middle"))
+    return svg(880, 440, "Tres ámbitos del alcance: entorno de construcción, pruebas automáticas y anexo de pantallas.", "\n".join(body))
 
 
 def la_entrega():

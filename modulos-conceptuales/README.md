@@ -26,5 +26,5 @@ El otro recorrido abre las demos del repositorio y mira el código. Este se qued
   Ionic, React Native y Electron: la misma idea, otra superficie.
 - [C08 — Casos guiados](C08-casos/README.md)
   El panel entero, una alarma que llega sola y la lectura de una frase de propuesta.
-- [C09 — El pliego](C09-pliego/README.md)
+- [C09 — Del pliego a la garantía](C09-pliego/README.md)
   Cómo encargar la aplicación: wireframe, contrato del dato, librerías y versiones, y un modelo de pliego.

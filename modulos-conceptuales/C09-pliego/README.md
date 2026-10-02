@@ -1,18 +1,17 @@
-# C09 — El pliego
+# C09 — Del pliego a la garantía
 
-[← Página anterior](../C08-casos/03-leer-una-propuesta.md) · [Siguiente página →](01-alcance.md)
+[← Página anterior](../C08-casos/03-leer-una-propuesta.md) · [Siguiente página →](01-el-pliego.md)
 
 Para quien gestiona el expediente, no para quien programa.
 
-La forma de trabajar no cambia: el alcance con su listado de suministros y servicios, las familias de requerimientos en tabla de tres columnas, la planificación por fases e hitos, las pruebas de aceptación con su acta, la formación, la garantía y la bolsa de horas de evolutivos.
+El pliego es una parte. Este capítulo recorre el ciclo: qué se escribe en el pliego, qué tienen que entregar, cómo se acepta y qué queda en garantía, cuando la parte que se ve se construye con React.
 
-Lo que cambia son unas pocas líneas dentro de esos apartados cuando la parte que se ve se construye con React. Este capítulo recorre solo esos apartados, uno por página, y acaba con un caso pequeño y su extracto de pliego.
+Dentro del pliego hay dos bloques, y no se mezclan: el alcance, que dice qué se suministra, y los requerimientos, que dicen cómo se comprueba. Las frases listas para copiar están en el ejemplo, que es la lista de mínimos.
 
 ## Páginas
 
-- [El alcance y el listado de suministros](01-alcance.md)
-- [Los requerimientos funcionales](02-requerimientos.md)
-- [Las fuentes y los entregables](03-fuentes.md)
-- [Las pruebas de aceptación](04-aceptacion.md)
-- [La garantía y la bolsa de horas](05-garantia.md)
-- [Supuesto: el pliego de AVISOS](06-ejemplo.md)
+- [Qué entra en el pliego](01-el-pliego.md)
+- [Qué tienen que entregar](02-entregables.md)
+- [Cómo se acepta](03-aceptacion.md)
+- [Qué queda en garantía](04-garantia.md)
+- [Ejemplo: los mínimos](05-ejemplo.md)
